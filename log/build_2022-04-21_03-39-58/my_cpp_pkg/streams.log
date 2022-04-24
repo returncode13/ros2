@@ -1,0 +1,56 @@
+[0.058s] Invoking command in '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/sharath/progs/ros2/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg
+[1.839s] -- The C compiler identification is GNU 9.4.0
+[2.491s] -- The CXX compiler identification is GNU 9.4.0
+[2.546s] -- Check for working C compiler: /usr/bin/cc
+[2.770s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.772s] -- Detecting C compiler ABI info
+[2.865s] -- Detecting C compiler ABI info - done
+[2.877s] -- Detecting C compile features
+[2.877s] -- Detecting C compile features - done
+[2.881s] -- Check for working CXX compiler: /usr/bin/c++
+[2.959s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.960s] -- Detecting CXX compiler ABI info
+[3.039s] -- Detecting CXX compiler ABI info - done
+[3.051s] -- Detecting CXX compile features
+[3.052s] -- Detecting CXX compile features - done
+[3.096s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.166s] -- Found PythonInterp: /home/sharath/anaconda3/bin/python3 (found suitable version "3.7.1", minimum required is "3") 
+[3.166s] -- Using PYTHON_EXECUTABLE: /home/sharath/anaconda3/bin/python3
+[6.323s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.492s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.036s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.095s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.416s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.454s] -- Looking for pthread.h
+[7.656s] -- Looking for pthread.h - found
+[7.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.769s] -- Looking for pthread_create in pthreads
+[7.891s] -- Looking for pthread_create in pthreads - not found
+[7.892s] -- Looking for pthread_create in pthread
+[7.965s] -- Looking for pthread_create in pthread - found
+[7.966s] -- Found Threads: TRUE  
+[8.231s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.264s] Traceback (most recent call last):
+[8.264s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[8.264s]     from catkin_pkg.package import parse_package_string
+[8.264s] ModuleNotFoundError: No module named 'catkin_pkg'
+[8.267s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[8.267s]   execute_process(/home/sharath/anaconda3/bin/python3
+[8.267s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[8.267s]   /home/sharath/progs/ros2/ros2_ws/src/my_cpp_pkg/package.xml
+[8.267s]   /home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg/ament_cmake_core/package.cmake)
+[8.267s]   returned error code 1
+[8.267s] Call Stack (most recent call first):
+[8.267s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[8.267s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[8.268s]   CMakeLists.txt:30 (ament_lint_auto_find_test_dependencies)
+[8.268s] 
+[8.268s] 
+[8.269s] -- Configuring incomplete, errors occurred!
+[8.269s] See also "/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[8.269s] See also "/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeError.log".
+[8.279s] Invoked command in '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/sharath/progs/ros2/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg
