@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+#connect to flgpu
+export cmd="ssh flgpu@115.240.142.90 -p 2200  -L 6999:localhost:6999 -i ~/.ssh/gpuserver.pem"
+gnome-terminal --window-with-profile="blue" -- bash -c "$cmd ;exec bash"
+
+

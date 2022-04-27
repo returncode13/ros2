@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+#connect to flgpu
+export cmd="docker run -it --rm --gpus all -p 6999:6999 -v /home/sharath/Public/src/audio_seg/:/progs -v /home/sharath/Public/data/cornellBirdcall/hdf5/:/data bird:1.0 bash -c \"cd /;jupyter-lab --ip=0.0.0.0 --port=6999 --allow-root \""
+gnome-terminal --window-with-profile="green" -- bash -c "$cmd ;exec bash"
+
+

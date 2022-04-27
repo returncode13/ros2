@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+export cmd="docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v /home/sharath/progs/4thLaw/gcs/:/data --group-add dialout qgcs:1.2 bash" 
+gnome-terminal --window-with-profile="orange" -- bash -c "$cmd ;exec bash"
+
