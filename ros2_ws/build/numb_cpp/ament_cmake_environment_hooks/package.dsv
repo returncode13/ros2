@@ -1,0 +1,4 @@
+source;share/numb_cpp/local_setup.bash
+source;share/numb_cpp/local_setup.dsv
+source;share/numb_cpp/local_setup.sh
+source;share/numb_cpp/local_setup.zsh

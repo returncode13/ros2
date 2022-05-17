@@ -1,0 +1,46 @@
+[0.013s] Invoking command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/sharath/progs/ros2/ros2_ws/src/numb_cpp -DCMAKE_INSTALL_PREFIX=/home/sharath/progs/ros2/ros2_ws/install/numb_cpp
+[1.208s] -- The C compiler identification is GNU 9.4.0
+[1.851s] -- The CXX compiler identification is GNU 9.4.0
+[1.900s] -- Check for working C compiler: /usr/bin/cc
+[2.011s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.012s] -- Detecting C compiler ABI info
+[2.102s] -- Detecting C compiler ABI info - done
+[2.113s] -- Detecting C compile features
+[2.114s] -- Detecting C compile features - done
+[2.118s] -- Check for working CXX compiler: /usr/bin/c++
+[2.197s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.199s] -- Detecting CXX compiler ABI info
+[2.280s] -- Detecting CXX compiler ABI info - done
+[2.291s] -- Detecting CXX compile features
+[2.292s] -- Detecting CXX compile features - done
+[2.367s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.421s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.421s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.731s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.843s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.872s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.233s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.276s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.545s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.547s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.568s] -- Looking for pthread.h
+[3.647s] -- Looking for pthread.h - found
+[3.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.035s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.036s] -- Looking for pthread_create in pthreads
+[4.131s] -- Looking for pthread_create in pthreads - not found
+[4.132s] -- Looking for pthread_create in pthread
+[4.202s] -- Looking for pthread_create in pthread - found
+[4.202s] -- Found Threads: TRUE  
+[4.709s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[4.709s]   ament_target_dependencies() the passed package name 'example_interfaces'
+[4.710s]   was not found before
+[4.710s] Call Stack (most recent call first):
+[4.710s]   CMakeLists.txt:25 (ament_target_dependencies)
+[4.710s] 
+[4.710s] 
+[4.711s] -- Configuring incomplete, errors occurred!
+[4.711s] See also "/home/sharath/progs/ros2/ros2_ws/build/numb_cpp/CMakeFiles/CMakeOutput.log".
+[4.712s] See also "/home/sharath/progs/ros2/ros2_ws/build/numb_cpp/CMakeFiles/CMakeError.log".
+[4.720s] Invoked command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/sharath/progs/ros2/ros2_ws/src/numb_cpp -DCMAKE_INSTALL_PREFIX=/home/sharath/progs/ros2/ros2_ws/install/numb_cpp

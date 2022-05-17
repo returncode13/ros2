@@ -1,0 +1,5 @@
+  File "/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/my_first_node.py", line 16
+    self.get_logger().info("Timer Hello "  str(self.counter_))
+                                           ^
+SyntaxError: invalid syntax
+

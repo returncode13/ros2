@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.000604] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000687] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.002453] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.046655] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.068994] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.069902] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', ''), ('HOSTNAME', '2f0a101c3098'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/sharath/bin/rsf/lib'), ('HOME', '/home/sharath'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sharath/progs/ros2'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/sharath/progs/ros2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/sharath/bin/rsf/bin:/home/sharath/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/sharath/bin/rsf:/home/sharath/bin/rsf/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RSFSRC', '/home/sharath/resources/sources/madagascar/madagascar-3.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/sharath/anaconda3/bin/python'), ('CONDA_DEFAULT_ENV', 'base'), ('DATAPATH', '/var/tmp/'), ('PWD', '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'C.UTF-8'), ('CONDA_EXE', '/home/sharath/anaconda3/bin/conda'), ('JULIA_LOAD_PATH', '/home/sharath/bin/rsf/lib'), ('PYTHONPATH', '/home/sharath/progs/ros2/ros2_ws/build/my_py_pkg:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sharath/bin/rsf/lib/python3.7/site-packages'), ('CONDA_PREFIX', '/home/sharath/anaconda3'), ('COLCON', '1'), ('MANPATH', ':/home/sharath/bin/rsf/share/man'), ('RSFROOT', '/home/sharath/bin/rsf'), ('CMAKE_PREFIX_PATH', '/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099981] (-) TimerEvent: {}
+[0.200516] (-) TimerEvent: {}
+[0.300802] (-) TimerEvent: {}
+[0.401085] (-) TimerEvent: {}
+[0.501362] (-) TimerEvent: {}
+[0.601640] (-) TimerEvent: {}
+[0.652735] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.701753] (-) TimerEvent: {}
+[0.802036] (-) TimerEvent: {}
+[0.806616] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/sharath/anaconda3/bin/python3\n'}
+[0.902153] (-) TimerEvent: {}
+[1.003058] (-) TimerEvent: {}
+[1.103387] (-) TimerEvent: {}
+[1.203663] (-) TimerEvent: {}
+[1.303963] (-) TimerEvent: {}
+[1.404276] (-) TimerEvent: {}
+[1.504578] (-) TimerEvent: {}
+[1.605144] (-) TimerEvent: {}
+[1.705410] (-) TimerEvent: {}
+[1.805704] (-) TimerEvent: {}
+[1.906015] (-) TimerEvent: {}
+[2.006302] (-) TimerEvent: {}
+[2.110967] (-) TimerEvent: {}
+[2.211492] (-) TimerEvent: {}
+[2.311811] (-) TimerEvent: {}
+[2.412304] (-) TimerEvent: {}
+[2.512672] (-) TimerEvent: {}
+[2.612973] (-) TimerEvent: {}
+[2.713244] (-) TimerEvent: {}
+[2.813613] (-) TimerEvent: {}
+[2.913887] (-) TimerEvent: {}
+[3.014183] (-) TimerEvent: {}
+[3.114457] (-) TimerEvent: {}
+[3.214754] (-) TimerEvent: {}
+[3.315025] (-) TimerEvent: {}
+[3.415304] (-) TimerEvent: {}
+[3.515595] (-) TimerEvent: {}
+[3.615870] (-) TimerEvent: {}
+[3.716183] (-) TimerEvent: {}
+[3.816477] (-) TimerEvent: {}
+[3.916754] (-) TimerEvent: {}
+[4.017099] (-) TimerEvent: {}
+[4.117571] (-) TimerEvent: {}
+[4.217842] (-) TimerEvent: {}
+[4.318122] (-) TimerEvent: {}
+[4.418523] (-) TimerEvent: {}
+[4.519061] (-) TimerEvent: {}
+[4.619320] (-) TimerEvent: {}
+[4.719629] (-) TimerEvent: {}
+[4.819962] (-) TimerEvent: {}
+[4.920247] (-) TimerEvent: {}
+[5.020548] (-) TimerEvent: {}
+[5.120998] (-) TimerEvent: {}
+[5.221440] (-) TimerEvent: {}
+[5.321725] (-) TimerEvent: {}
+[5.422024] (-) TimerEvent: {}
+[5.522304] (-) TimerEvent: {}
+[5.622605] (-) TimerEvent: {}
+[5.722886] (-) TimerEvent: {}
+[5.804067] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.824793] (-) TimerEvent: {}
+[5.925337] (-) TimerEvent: {}
+[6.025655] (-) TimerEvent: {}
+[6.112907] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.124960] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.125744] (-) TimerEvent: {}
+[6.226380] (-) TimerEvent: {}
+[6.326797] (-) TimerEvent: {}
+[6.427095] (-) TimerEvent: {}
+[6.527532] (-) TimerEvent: {}
+[6.627897] (-) TimerEvent: {}
+[6.728234] (-) TimerEvent: {}
+[6.828653] (-) TimerEvent: {}
+[6.929073] (-) TimerEvent: {}
+[7.029570] (-) TimerEvent: {}
+[7.129872] (-) TimerEvent: {}
+[7.230156] (-) TimerEvent: {}
+[7.330516] (-) TimerEvent: {}
+[7.430930] (-) TimerEvent: {}
+[7.531287] (-) TimerEvent: {}
+[7.634300] (-) TimerEvent: {}
+[7.734759] (-) TimerEvent: {}
+[7.835283] (-) TimerEvent: {}
+[7.935893] (-) TimerEvent: {}
+[8.036220] (-) TimerEvent: {}
+[8.136590] (-) TimerEvent: {}
+[8.237501] (-) TimerEvent: {}
+[8.249358] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.337602] (-) TimerEvent: {}
+[8.388596] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.399217] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.437696] (-) TimerEvent: {}
+[8.538352] (-) TimerEvent: {}
+[8.639036] (-) TimerEvent: {}
+[8.742484] (-) TimerEvent: {}
+[8.791239] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[8.842594] (-) TimerEvent: {}
+[8.943343] (-) TimerEvent: {}
+[9.044106] (-) TimerEvent: {}
+[9.146443] (-) TimerEvent: {}
+[9.247164] (-) TimerEvent: {}
+[9.347902] (-) TimerEvent: {}
+[9.462554] (-) TimerEvent: {}
+[9.565483] (-) TimerEvent: {}
+[9.668060] (-) TimerEvent: {}
+[9.768776] (-) TimerEvent: {}
+[9.869493] (-) TimerEvent: {}
+[9.879770] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.969599] (-) TimerEvent: {}
+[10.013598] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[10.017074] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg\n'}
+[10.052290] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_news_station\x1b[0m\n'}
+[10.069701] (-) TimerEvent: {}
+[10.143580] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[10.169812] (-) TimerEvent: {}
+[10.270149] (-) TimerEvent: {}
+[10.370439] (-) TimerEvent: {}
+[10.471768] (-) TimerEvent: {}
+[10.574650] (-) TimerEvent: {}
+[10.674970] (-) TimerEvent: {}
+[10.775301] (-) TimerEvent: {}
+[10.875631] (-) TimerEvent: {}
+[10.975988] (-) TimerEvent: {}
+[11.076321] (-) TimerEvent: {}
+[11.176655] (-) TimerEvent: {}
+[11.276989] (-) TimerEvent: {}
+[11.377345] (-) TimerEvent: {}
+[11.477690] (-) TimerEvent: {}
+[11.578067] (-) TimerEvent: {}
+[11.678437] (-) TimerEvent: {}
+[11.778791] (-) TimerEvent: {}
+[11.879137] (-) TimerEvent: {}
+[11.979480] (-) TimerEvent: {}
+[12.079768] (-) TimerEvent: {}
+[12.180053] (-) TimerEvent: {}
+[12.280336] (-) TimerEvent: {}
+[12.380623] (-) TimerEvent: {}
+[12.480913] (-) TimerEvent: {}
+[12.581190] (-) TimerEvent: {}
+[12.685975] (-) TimerEvent: {}
+[12.786633] (-) TimerEvent: {}
+[12.887148] (-) TimerEvent: {}
+[12.987667] (-) TimerEvent: {}
+[13.087996] (-) TimerEvent: {}
+[13.188338] (-) TimerEvent: {}
+[13.291257] (-) TimerEvent: {}
+[13.391537] (-) TimerEvent: {}
+[13.491819] (-) TimerEvent: {}
+[13.592086] (-) TimerEvent: {}
+[13.694300] (-) TimerEvent: {}
+[13.796065] (-) TimerEvent: {}
+[13.907821] (-) TimerEvent: {}
+[14.008368] (-) TimerEvent: {}
+[14.109103] (-) TimerEvent: {}
+[14.209386] (-) TimerEvent: {}
+[14.309667] (-) TimerEvent: {}
+[14.410055] (-) TimerEvent: {}
+[14.510497] (-) TimerEvent: {}
+[14.610790] (-) TimerEvent: {}
+[14.711076] (-) TimerEvent: {}
+[14.811393] (-) TimerEvent: {}
+[14.914826] (-) TimerEvent: {}
+[15.022483] (-) TimerEvent: {}
+[15.122766] (-) TimerEvent: {}
+[15.223037] (-) TimerEvent: {}
+[15.323341] (-) TimerEvent: {}
+[15.423761] (-) TimerEvent: {}
+[15.524248] (-) TimerEvent: {}
+[15.624520] (-) TimerEvent: {}
+[15.724854] (-) TimerEvent: {}
+[15.825217] (-) TimerEvent: {}
+[15.925682] (-) TimerEvent: {}
+[16.026093] (-) TimerEvent: {}
+[16.126434] (-) TimerEvent: {}
+[16.226771] (-) TimerEvent: {}
+[16.327118] (-) TimerEvent: {}
+[16.427526] (-) TimerEvent: {}
+[16.534492] (-) TimerEvent: {}
+[16.634963] (-) TimerEvent: {}
+[16.735290] (-) TimerEvent: {}
+[16.835615] (-) TimerEvent: {}
+[16.935932] (-) TimerEvent: {}
+[17.036281] (-) TimerEvent: {}
+[17.136650] (-) TimerEvent: {}
+[17.236969] (-) TimerEvent: {}
+[17.337334] (-) TimerEvent: {}
+[17.437659] (-) TimerEvent: {}
+[17.538049] (-) TimerEvent: {}
+[17.638451] (-) TimerEvent: {}
+[17.738780] (-) TimerEvent: {}
+[17.839164] (-) TimerEvent: {}
+[17.939503] (-) TimerEvent: {}
+[18.039854] (-) TimerEvent: {}
+[18.140394] (-) TimerEvent: {}
+[18.240735] (-) TimerEvent: {}
+[18.341012] (-) TimerEvent: {}
+[18.415906] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[18.441603] (-) TimerEvent: {}
+[18.541974] (-) TimerEvent: {}
+[18.643445] (-) TimerEvent: {}
+[18.743814] (-) TimerEvent: {}
+[18.844175] (-) TimerEvent: {}
+[18.944695] (-) TimerEvent: {}
+[19.045158] (-) TimerEvent: {}
+[19.145565] (-) TimerEvent: {}
+[19.245916] (-) TimerEvent: {}
+[19.346308] (-) TimerEvent: {}
+[19.446615] (-) TimerEvent: {}
+[19.546928] (-) TimerEvent: {}
+[19.647343] (-) TimerEvent: {}
+[19.747615] (-) TimerEvent: {}
+[19.848314] (-) TimerEvent: {}
+[19.949012] (-) TimerEvent: {}
+[20.051966] (-) TimerEvent: {}
+[20.152632] (-) TimerEvent: {}
+[20.253013] (-) TimerEvent: {}
+[20.353295] (-) TimerEvent: {}
+[20.453632] (-) TimerEvent: {}
+[20.553980] (-) TimerEvent: {}
+[20.654363] (-) TimerEvent: {}
+[20.754821] (-) TimerEvent: {}
+[20.856264] (-) TimerEvent: {}
+[20.956779] (-) TimerEvent: {}
+[21.057149] (-) TimerEvent: {}
+[21.157516] (-) TimerEvent: {}
+[21.257900] (-) TimerEvent: {}
+[21.358282] (-) TimerEvent: {}
+[21.459442] (-) TimerEvent: {}
+[21.567937] (-) TimerEvent: {}
+[21.668379] (-) TimerEvent: {}
+[21.768737] (-) TimerEvent: {}
+[21.869451] (-) TimerEvent: {}
+[21.969859] (-) TimerEvent: {}
+[22.070271] (-) TimerEvent: {}
+[22.170776] (-) TimerEvent: {}
+[22.271123] (-) TimerEvent: {}
+[22.374485] (-) TimerEvent: {}
+[22.474823] (-) TimerEvent: {}
+[22.575173] (-) TimerEvent: {}
+[22.675531] (-) TimerEvent: {}
+[22.778495] (-) TimerEvent: {}
+[22.878883] (-) TimerEvent: {}
+[22.919347] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target robot_news_station\n'}
+[22.978975] (-) TimerEvent: {}
+[23.074610] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_node\n'}
+[23.079123] (-) TimerEvent: {}
+[23.101958] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[23.179681] (-) TimerEvent: {}
+[23.203778] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[23.223884] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('CONDA_PROMPT_MODIFIER', ''), ('HOSTNAME', '2f0a101c3098'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/sharath/bin/rsf/lib'), ('HOME', '/home/sharath'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sharath/progs/ros2'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/sharath/progs/ros2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/sharath/bin/rsf/bin:/home/sharath/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/sharath/bin/rsf:/home/sharath/bin/rsf/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RSFSRC', '/home/sharath/resources/sources/madagascar/madagascar-3.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/sharath/anaconda3/bin/python'), ('CONDA_DEFAULT_ENV', 'base'), ('DATAPATH', '/var/tmp/'), ('PWD', '/home/sharath/progs/ros2/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'C.UTF-8'), ('CONDA_EXE', '/home/sharath/anaconda3/bin/conda'), ('JULIA_LOAD_PATH', '/home/sharath/bin/rsf/lib'), ('PYTHONPATH', '/home/sharath/progs/ros2/ros2_ws/build/my_py_pkg:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/sharath/bin/rsf/lib/python3.7/site-packages'), ('CONDA_PREFIX', '/home/sharath/anaconda3'), ('COLCON', '1'), ('MANPATH', ':/home/sharath/bin/rsf/share/man'), ('RSFROOT', '/home/sharath/bin/rsf'), ('CMAKE_PREFIX_PATH', '/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[23.279789] (-) TimerEvent: {}
+[23.284368] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.379699] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[23.379890] (-) TimerEvent: {}
+[23.380015] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[23.380228] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""\n'}
+[23.380421] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[23.380593] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[23.380730] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[23.380812] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[23.381013] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[23.381213] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[23.381355] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[23.381548] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[23.381713] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[23.381876] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[23.381990] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[23.382114] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[23.382239] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[23.382350] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[23.382489] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/sharath/progs/ros2/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[23.383695] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[23.480003] (-) TimerEvent: {}
+[23.580845] (-) TimerEvent: {}
+[23.681117] (-) TimerEvent: {}
+[23.781569] (-) TimerEvent: {}
+[23.865754] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[23.866743] (-) EventReactorShutdown: {}

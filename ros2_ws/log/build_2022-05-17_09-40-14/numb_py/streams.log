@@ -1,0 +1,24 @@
+[0.642s] Invoking command in '/home/sharath/progs/ros2/ros2_ws/src/numb_py': PYTHONPATH=/home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/numb_py build --build-base /home/sharath/progs/ros2/ros2_ws/build/numb_py/build install --prefix /home/sharath/progs/ros2/ros2_ws/install/numb_py --record /home/sharath/progs/ros2/ros2_ws/build/numb_py/install.log --single-version-externally-managed
+[0.843s] running egg_info
+[0.844s] writing ../../build/numb_py/numb_py.egg-info/PKG-INFO
+[0.844s] writing dependency_links to ../../build/numb_py/numb_py.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/numb_py/numb_py.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/numb_py/numb_py.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/numb_py/numb_py.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/numb_py/numb_py.egg-info/SOURCES.txt'
+[0.891s] writing manifest file '../../build/numb_py/numb_py.egg-info/SOURCES.txt'
+[0.891s] running build
+[0.891s] running build_py
+[0.891s] copying numb_py/number_publisher.py -> /home/sharath/progs/ros2/ros2_ws/build/numb_py/build/lib/numb_py
+[0.891s] running install
+[0.892s] running install_lib
+[0.893s] copying /home/sharath/progs/ros2/ros2_ws/build/numb_py/build/lib/numb_py/number_publisher.py -> /home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/python3.8/site-packages/numb_py
+[0.893s] byte-compiling /home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/python3.8/site-packages/numb_py/number_publisher.py to number_publisher.cpython-38.pyc
+[0.895s] running install_data
+[0.895s] running install_egg_info
+[0.897s] removing '/home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/python3.8/site-packages/numb_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.897s] Copying ../../build/numb_py/numb_py.egg-info to /home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/python3.8/site-packages/numb_py-0.0.0-py3.8.egg-info
+[0.923s] running install_scripts
+[0.940s] Installing number_publisher script to /home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/numb_py
+[0.940s] writing list of installed files to '/home/sharath/progs/ros2/ros2_ws/build/numb_py/install.log'
+[0.962s] Invoked command in '/home/sharath/progs/ros2/ros2_ws/src/numb_py' returned '0': PYTHONPATH=/home/sharath/progs/ros2/ros2_ws/install/numb_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/numb_py build --build-base /home/sharath/progs/ros2/ros2_ws/build/numb_py/build install --prefix /home/sharath/progs/ros2/ros2_ws/install/numb_py --record /home/sharath/progs/ros2/ros2_ws/build/numb_py/install.log --single-version-externally-managed

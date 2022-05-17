@@ -1,0 +1,51 @@
+[0.024s] Invoking command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/sharath/progs/ros2/ros2_ws/src/numb_cpp -DCMAKE_INSTALL_PREFIX=/home/sharath/progs/ros2/ros2_ws/install/numb_cpp
+[0.029s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.223s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.439s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.613s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.814s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.969s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.970s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.970s] -- Configured cppcheck include dirs: 
+[0.971s] -- Configured cppcheck exclude dirs and/or files: 
+[0.972s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.972s] -- Configured cpplint exclude dirs and/or files: 
+[0.973s] -- Added test 'lint_cmake' to check CMake code style
+[0.975s] -- Added test 'uncrustify' to check C / C++ code style
+[0.975s] -- Configured uncrustify additional arguments: 
+[0.975s] -- Added test 'xmllint' to check XML markup files
+[0.980s] -- Configuring done
+[0.989s] -- Generating done
+[0.990s] -- Build files have been written to: /home/sharath/progs/ros2/ros2_ws/build/numb_cpp
+[0.997s] Invoked command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/sharath/progs/ros2/ros2_ws/src/numb_cpp -DCMAKE_INSTALL_PREFIX=/home/sharath/progs/ros2/ros2_ws/install/numb_cpp
+[1.000s] Invoking command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/sharath/progs/ros2/ros2_ws/build/numb_cpp -- -j4 -l4
+[1.041s] [35m[1mScanning dependencies of target number_counter[0m
+[1.173s] [ 50%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[6.105s] [100%] [32m[1mLinking CXX executable number_counter[0m
+[6.694s] [100%] Built target number_counter
+[6.707s] Invoked command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/sharath/progs/ros2/ros2_ws/build/numb_cpp -- -j4 -l4
+[6.741s] Invoking command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/sharath/progs/ros2/ros2_ws/build/numb_cpp
+[6.752s] -- Install configuration: ""
+[6.752s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/lib/numb_cpp/number_counter
+[6.754s] -- Set runtime path of "/home/sharath/progs/ros2/ros2_ws/install/numb_cpp/lib/numb_cpp/number_counter" to ""
+[6.754s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/ament_index/resource_index/package_run_dependencies/numb_cpp
+[6.754s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/ament_index/resource_index/parent_prefix_path/numb_cpp
+[6.754s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/environment/ament_prefix_path.sh
+[6.755s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/environment/ament_prefix_path.dsv
+[6.755s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/environment/path.sh
+[6.755s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/environment/path.dsv
+[6.755s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/local_setup.bash
+[6.755s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/local_setup.sh
+[6.762s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/local_setup.zsh
+[6.763s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/local_setup.dsv
+[6.763s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/package.dsv
+[6.763s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/ament_index/resource_index/packages/numb_cpp
+[6.763s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/cmake/numb_cppConfig.cmake
+[6.763s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/cmake/numb_cppConfig-version.cmake
+[6.763s] -- Installing: /home/sharath/progs/ros2/ros2_ws/install/numb_cpp/share/numb_cpp/package.xml
+[6.772s] Invoked command in '/home/sharath/progs/ros2/ros2_ws/build/numb_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sharath/progs/ros2/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/sharath/progs/ros2/ros2_ws/build/numb_cpp
